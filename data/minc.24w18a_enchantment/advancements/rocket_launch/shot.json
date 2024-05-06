@@ -1,0 +1,29 @@
+{
+    "rewards": {
+        "function": "minc.24w18a_enchantment:rocket_launch/shot"
+    },
+    "criteria": {
+        "rocket_launch.shot": {
+            "trigger": "minecraft:shot_crossbow",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:crossbow"
+                    ],
+                    "predicates": {
+                        "enchantments": [
+                            {
+                                "enchantments": "minc.24w18a_enchantment:rocket_launch"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "rocket_launch.shot"
+        ]
+    ]
+}

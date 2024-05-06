@@ -1,0 +1,2 @@
+execute positioned ~ ~1.62 ~ as @e[type=firework_rocket,sort=nearest,nbt={HasBeenShot:0b}] run function minc.24w18a_enchantment:rocket_launch/summon_marker
+advancement revoke @s only minc.24w18a_enchantment:rocket_launch/shot

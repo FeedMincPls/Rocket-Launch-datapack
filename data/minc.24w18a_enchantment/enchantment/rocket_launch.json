@@ -1,0 +1,23 @@
+{
+    "#":"不知道为什么这个魔咒组件对烟花火箭不起作用，先用进度检测吧）",
+    "anvil_cost": 4,
+    "description": {
+      "translate": "✟升天✟"
+    },
+    "effects": {
+  },
+    "max_cost": {
+      "base": 50,
+      "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 20,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/crossbow",
+    "weight": 1
+  }
